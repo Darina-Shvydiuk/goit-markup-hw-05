@@ -723,6 +723,7 @@ left: 0;
         top: 50%;
         left: 50%;
 
+        position: relative;
     width: 528px;
         height: 581px;
 
@@ -738,6 +739,9 @@ left: 0;
 }
 
 .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 30px;
         height: 30px;
         background-color:transparent;
@@ -747,6 +751,8 @@ left: 0;
            justify-content: center;
 align-items: center;
 padding: 0;
+margin-top: 8px;
+margin-right: 8px;
 }
 
 .close {
